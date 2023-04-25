@@ -24,14 +24,15 @@
         android:gravity="center"
         />
 
-    <!--Displays current balance-->
-    <TextView
+    <!--User inputs amount to bet on current hand-->
+    <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:textSize="20dp"
-        android:text="Your Balance: "
+        android:hint="Input Amount to Bet: "
         android:gravity="center"
+        android:inputType="number"
         />
 
     <!--Button to hit (add another card)-->
