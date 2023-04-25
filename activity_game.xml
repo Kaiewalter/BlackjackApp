@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <!--Shows dealer's hand-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Dealer Hand: "
+        android:gravity="center"
+        />
+
+    <!--Shows user's hand-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Your Hand: "
+        android:gravity="center"
+        />
+
+    <!--Displays current balance-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Your Balance: "
+        android:gravity="center"
+        />
+
+    <!--Button to hit (add another card)-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="HIT"
+        android:gravity="center"
+        />
+
+    <!--Button to stay (result is end of current round)-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="STAY"
+        android:gravity="center"
+        />
+
+    <!--Button to return to main menu-->
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="RETURN TO MAIN MENU"
+        android:gravity="center"
+        />
+
+</LinearLayout>
